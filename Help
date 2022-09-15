@@ -1,0 +1,15 @@
+URL's for GET, POST, PUT and DELETE
+==========================================
+
+1) Get : http://localhost:8081/student/get
+
+2) Post : http://localhost:8081/student/post 
+          Body:
+             	{
+    		  "firstName":"chandini",
+    		  "lastName":"DL"
+   		}
+
+3) Put : http://localhost:8081/student/update/{firstName}/{id}
+
+4) Delete :  http://localhost:8081/student/delete/{id}
