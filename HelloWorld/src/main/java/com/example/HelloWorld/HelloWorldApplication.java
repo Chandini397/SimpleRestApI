@@ -9,9 +9,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HelloWorldApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(HelloWorldApplication.class, args);
-	}
+	//public static void main(String[] args) {
+	//	SpringApplication.run(HelloWorldApplication.class, args);
+	//}
 
 	@RequestMapping("/hey")
 	public String sayHello() {
